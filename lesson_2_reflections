@@ -10,3 +10,37 @@ repository? What value do you think it offers?
 Staging area is like an intermediate bwetween working directory and 
 repository. It helps in creating commits by making the process more 
 manageable.
+
+How can you use the staging area to make sure you have one commit per 
+logical change?
+
+Compare the staging area with the latest commit to see how many changes 
+have been introduced. If there are more than one logical changes then 
+extra changes can be reverted back. 
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+Branches will help when we want to keep different versions parallely.
+It makes noticing changes easier. Without branches it would be very
+difficult to track such parallel changes. 
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams make it easier to understand how different branches are 
+connected and which commit belongs to which branch.
+
+What is the result of merging two branches together? Why do we 
+represent it in the diagram the way we do?
+
+Changes in both the branches are merged and a new commit is made
+consisting of all the changes. Commit histoey is also merged. The 
+diagram is such so as to make it easier to understand the merging
+process. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing 
+merges manually?
+
+Pros: automatic merging saves lot of time and effort tofind the chanegs 
+and then combine them in one commit. Cons: It can lead to errorneous 
+merging but manual merging has very less chances of that.
